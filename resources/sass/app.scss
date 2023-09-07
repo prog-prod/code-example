@@ -1,0 +1,31 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Variables
+@import 'variables';
+
+.btn-primary {
+    color: white;
+    background-color: rgba(255, 65, 53, 1);
+    outline: none;
+    border: none;
+
+    &:hover, &:focus, &:visited {
+        color: white !important;
+        background-color: rgba(255, 65, 53, 0.8);
+    }
+
+    &:active {
+        background-color: rgba(255, 65, 53, 0.9) !important;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(255, 65, 53, 0.9) !important;
+    }
+}
+
+.border-solid {
+    border: 1px solid #333;
+}
